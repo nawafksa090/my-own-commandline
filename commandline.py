@@ -5,7 +5,8 @@ from tkinter import *
 from tkinter import simpledialog
 from functools import partial
 import random
-def test():
+#this thing is broken!
+def start1():
             import turtle as n
             n.speed(20)
             def forward():
@@ -645,6 +646,7 @@ def play():
         elif choose == "4":
             rps()
         elif choose == "6":
+            #this is broken
             start1()
         elif choose == "2":
                 def again():
